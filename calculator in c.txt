@@ -3,21 +3,21 @@ int main() {
   float b, c;
   float add, sub, multi, divi;
   printf(
-      "********************calculator made by shristi*********************\n");
+    "***********************calculator made by shristi**************************\n");
   printf("1.addition         2.subtraction\n3.multiplication         "
          "4.division\n");
-  printf("enter number as per your operation\n");
+  printf("enter numbers as per your operation\n");
   scanf("%d", &a);
   switch (a) {
   case 1:
     printf(
-        " enter two number for additition\n  first number:\n second number:\n");
+        " enter two numbers  for additition\n  first number:\n second number:\n");
     scanf("%f%f", &b, &c);
     add = b + c;
     printf("add=%f", add);
     break;
   case 2:
-    printf("enter two number for subtraction\n");
+    printf("enter two numbers  for subtraction\n");
     scanf("%f%f", &b, &c);
     sub = b - c;
     printf("sub=%f", sub);
@@ -29,7 +29,7 @@ int main() {
     printf("multi=%f", multi);
     break;
   case 4:
-    printf("enter two nuber for division\n");
+    printf("enter two number for division\n");
     scanf("%f%f", &b, &c);
     divi = b / c;
     printf("divi=%f", divi);
@@ -37,4 +37,5 @@ int main() {
   default:
     printf("you enter wrong option");
   }
+printf("\nthank you for using this calculator")
 }
