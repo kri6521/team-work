@@ -28,7 +28,7 @@ for i in range( 0 , len(questions)):
         elif(i == 9):
                 money = 32000
     else:
-        print("wrong answer!!")
+        print("wrong answer !")
         break 
 print( f"your take home money is {money}") 
 
