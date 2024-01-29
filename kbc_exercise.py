@@ -31,5 +31,3 @@ for i in range( 0 , len(questions)):
         print("wrong answer!!")
         break 
 print( f"your take home money is {money}") 
-
-# qt kumari present sir
